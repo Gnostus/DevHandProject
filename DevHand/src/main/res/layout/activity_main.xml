@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#fffefb">
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="136dp"
+        android:id="@id/projectSpinner"
+        android:layout_gravity="left|top" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:text="@string/newProject"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/round"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="135dp"
+        android:text="@string/chooseProject"
+        android:id="@id/addProjectBtn"
+        android:layout_gravity="center"
+        android:background="@drawable/round" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="135dp"
+        android:text="@string/chooseProject"
+        android:id="@id/btnChoose"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/round"
+        android:layout_marginBottom="5dp" />
+
+</FrameLayout>
